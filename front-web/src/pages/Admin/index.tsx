@@ -1,7 +1,11 @@
+import Navbar from './components/Navbar';
+import './styles.scss';
+
 const Admin = () => (
     <div>
-        <h1>Admin</h1>
-    </div>
+        <Navbar />
+    </div>  
+    
 );
 
 export default Admin;
